@@ -1,0 +1,74 @@
+00: Dispositivo de EEG
+01: Activa o desactiva la función Logging
+02: Activa o desactiva el servidor TCP
+03: Presiona este botón para inicar la Adquisición
+04: Para la Adquisición
+05: Adquisición
+06: Servidor TCP
+07: Logging
+08:
+09:
+10:
+11:
+12:
+13:
+14:
+15:
+16:
+17:
+18:
+19:
+20:
+21:
+22:
+23:
+24:
+25:
+26:
+27:
+28:
+29:
+30: Seleciona dispositivo EEG
+31: Marcador: @marker fue detectado
+32: Por lo menos una opción debe estar activa
+33: Selecciona LOGGING y/o SERVIDOR TCP luego haz click en PLAY
+34: Archivo seleccionado: @path
+35: Error al abrir el archivo
+36: Conectando con el dispositivo: @device 
+37: Conexión exitosa con el dispositivo: @device  
+38: MuLES está esperando cliente TCP ...  
+39: Cliente: @ip conectado a MuLES   
+40: Conexión TCP cerrada exitosamente 
+41: El archivo: @file fue was cerrado exitosamente 
+42: Seguro que deseas salir?
+43: Si 
+44: No
+45: Cerrando conexión con dispositivo: @device
+46: La conexión con el dispositivo: @device fue cerrada exitosamente
+47: El software NIC (Enobio) preguntará si quieres Salir, haz click en Si
+48: El dispositivo: @device no fue encontrado, o no es soportado
+49: Click START en el software NIC. Después haz click en OK en esta ventana
+50: Verifica the contact quality en el Control Panel de Emotiv
+51: Marcador: @marker fue recivido vía TCP 
+52: Fin del archivo: @path 
+53: Las señales EEG serán salvadas en el archivo: @file
+54: La conexión TCP será cerrada
+55: Registro de señales EEG terminado
+56: Fin del archivo: @file
+57:
+58:
+59:
+60:
+61:
+62:
+63:
+64:
+65:
+66:
+67:
+68:
+69:
+70:
+
+
+

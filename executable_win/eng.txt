@@ -1,0 +1,74 @@
+00: EEG source
+01: Enables or Disables Logging
+02: Enables or Disables TCP Server
+03: Click here to start Acquisition
+04: Stops Acquistion
+05: Acquistion
+06: Server
+07: Logging
+08:
+09:
+10:
+11:
+12:
+13:
+14:
+15:
+16:
+17:
+18:
+19:
+20:
+21:
+22:
+23:
+24:
+25:
+26:
+27:
+28:
+29:
+30: Select the EEG source
+31: Marker: @marker was sent
+32: At least one option must be enabled
+33: Select LOGGING and/or TCP SERVER then click in PLAY
+34: Selected file: @path
+35: Error at openning file
+36: Connecting with @device 
+37: Connection with @device was successful  
+38: MuLES is waiting for network client ... 
+39: MuLES connected to client: @ip  
+40: TCP connection closed successfuly 
+41: @file was close well 
+42: Do you want to Exit?
+43: Yes, I do 
+44: No
+45: Closing connection with @device
+46: Connection with @device was closed well
+47: NIC (Enobio's) software will ask you if you want to Exit, say yes
+48: Device: @device was not found or is not supported
+49: Click START in NIC (Enobio's) software. Just after that click OK in this window
+50: Verify Emotiv contact quality in Emotiv's Control Panel
+51: Marker: @marker was sent through TCP connection
+52: End of file: @path 
+53: EEG data will be saved in @file
+54: TCP connection will be closed
+55: Indicates than Logging will be stoped
+56: File @file is over.
+57:
+58:
+59:
+60:
+61:
+62:
+63:
+64:
+65:
+66:
+67:
+68:
+69:
+70:
+
+
+
