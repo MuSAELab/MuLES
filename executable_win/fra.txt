@@ -1,0 +1,74 @@
+00: Origine de l'EEG
+01: Activer ou désactiver l'enregistrement
+02: Activer ou désactiver la transmission TCP
+03: Cliquer ici pour démarrer une acquisition
+04: Arrêter l'acquisition
+05: Acquisition
+06: Serveur TCP
+07: Enregistrement
+08:
+09:
+10:
+11:
+12:
+13:
+14:
+15:
+16:
+17:
+18:
+19:
+20:
+21:
+22:
+23:
+24:
+25:
+26:
+27:
+28:
+29:
+30: Choisir l'origine des données d'EEG
+31: Marqueur: @marker a été envoyé
+32: Au moins une option doit être activée
+33: Cliquer sur ENREGISTREMENT et/ou sur SERVEUR TCP, puis cliquer sur le bouton de lecture
+34: Fichier sélectionné: @path
+35: Erreur d'ouverture du fichier
+36: Connexion avec @device 
+37: Connexion avec @device a réussi 
+38: MuLES en attente du client... 
+39: MuLES est connecté au client: @ip  
+40: Connexion TCP fermée avec succès
+41: @file a été fermé avec succès
+42: Voulez-vous quitter?
+43: Oui
+44: Non
+45: Fermeture de la connexion avec @device...
+46: Connexion avec @device fermée avec succès
+47: NIC (interface de l'Enobio) vous demande si vous voulez quitter. Cliquez sur «Oui».
+48: Appareil: @device n'a pas été trouvé ou n'est pas pris en charge
+49: Cliquez «START» dans NIC (interface de l'Enobio). Ensuite, cliquez sur «OK» dans cette fenêtre.
+50: Vérifiez la qualité des contacts dans le Emotiv Control Panel
+51: Marqueur: @marker a été envoyé via la connexion TCP
+52: Fin du fichier: @path 
+53: Les données EEG seront sauvegardées dans @file
+54: La connexion TCP sera fermée
+55: Indique que l'enregistrement sera arrêté
+56: La fin du fichier @file a été atteinte
+57:
+58:
+59:
+60:
+61:
+62:
+63:
+64:
+65:
+66:
+67:
+68:
+69:
+70:
+
+
+
