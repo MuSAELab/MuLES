@@ -1,0 +1,20 @@
+You will need LabVIEW 2013 or higher to open the VIs.
+
+The following Packages are required:
+
+* LabVIEW Emotiv Toolkit V2 (2.0.0.3)
+URL: https://decibel.ni.com/content/docs/DOC-40699
+
+* LabVIEW OpenBCI Toolkit (1.1.0.3)
+URL: https://decibel.ni.com/content/docs/DOC-40837
+
+* NeuroSky LabVIEW Driver (1.1.1.5)
+URL: https://decibel.ni.com/content/docs/DOC-19690
+
+* NI Open Sound Control (1.0.2.16)
+URL: http://sine.ni.com/nips/cds/view/p/lang/en/nid/211428
+
+
+(The use of JKI VI Packager Manager is recommended)
+
+

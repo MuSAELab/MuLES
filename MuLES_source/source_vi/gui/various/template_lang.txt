@@ -1,0 +1,71 @@
+00: Initial text for the ComboBox to Select the EEG source
+01: Auxiliar txt fot the Logging (disk) button
+02: Auxiliar txt fot the TCP Server (network) button
+03: Auxiliar txt fot the Play button
+04: Auxiliar txt fot the Stop button
+05:
+06:
+07:
+08:
+09:
+10:
+11:
+12:
+13:
+14:
+15:
+16:
+17:
+18:
+19:
+20:
+21:
+22:
+23:
+24:
+25:
+26:
+27:
+28:
+29:
+30: Urges to the User to select a EEG source from the ComboBox
+31: A Marker was sent, the value of the marker is @marker
+32: Indicates to the User that he must select Log or Server or Log+Server
+33: Urgers to the user to select LOG and / or TCP then click in PLAY
+34: Shows the file name (@path) for the file selected
+35: String for Error at openning file
+36: String for Connecting with @device 
+37: String for A successful connection with @device  
+38: Indicates that the Server is waiting for a client 
+39: Indicates that the client (@ip) connected with the Server  
+40: Indicates that the connection TCP/IP was closed successfuly 
+41: Indicates that the file (@file) was close well (If CSV;EDF is selected this string will appear twice with different file) 
+42: Question in Popup to Confirm Quit (Appears when user clicks in the Close Window [X]. Only any process is running)
+43: String to confirm Quit
+44: String to cancel Quit
+45: Indicates that the communication with the @device will be closed
+46: Indicates that the connection with @device was closed well
+47: String to indicate how to exit from NIC software (Enobio software is going to ask you if you want to exit, say yes)
+48: Indicates that the device: @device is not found or it is not supported (Usually typo in config.ini)
+49: Indicates how to proceed with the NIC software for acquisition (Click START in enobio software, after click OK in this window)
+50: Urges the user to verify Emotiv contact quality in Emotiv Control Panel
+51: A Marker (@marker) was sent v'ia TCP/IP connection
+52: Indicates that the File (@path) to stream is over 
+53: Indicates the name of the files (@file_ where the data will be stored, (If CSV;EDF is selected this string will appear twice with different file) 
+54: Indicastes that the TCP conx will be closed
+55: Indicates that Logging will be stoped
+56: Indicates that the file (@file) is over 
+57:
+58:
+59:
+60:
+61:
+62:
+63:
+64:
+65:
+66:
+67:
+68:
+69:
+70:
