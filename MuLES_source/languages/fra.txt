@@ -1,4 +1,4 @@
-00: Origine de l'EEG
+﻿00: Origine de l'EEG
 01: Activer ou désactiver l'enregistrement
 02: Activer ou désactiver la transmission TCP
 03: Cliquer ici pour démarrer une acquisition
@@ -6,7 +6,7 @@
 05: Acquisition
 06: Serveur TCP
 07: Enregistrement
-08:
+08: Fichier de configuration 
 09:
 10:
 11:
@@ -55,7 +55,7 @@
 54: La connexion TCP sera fermée
 55: Indique que l'enregistrement sera arrêté
 56: La fin du fichier @file a été atteinte
-57:
+57: Fichie de configuration @file chargé
 58:
 59:
 60:

@@ -6,7 +6,7 @@
 05: Acquistion
 06: Server
 07: Logging
-08:
+08: Configuration file
 09:
 10:
 11:
@@ -55,7 +55,7 @@
 54: TCP connection will be closed
 55: Indicates than Logging will be stoped
 56: File @file is over.
-57:
+57: Configuration @file loaded
 58:
 59:
 60:

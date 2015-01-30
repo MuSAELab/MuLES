@@ -6,7 +6,7 @@
 05: Adquisición
 06: Servidor TCP
 07: Logging
-08:
+08: Archivo de configuración
 09:
 10:
 11:
@@ -55,7 +55,7 @@
 54: La conexión TCP será cerrada
 55: Registro de señales EEG terminado
 56: Fin del archivo: @file
-57:
+57: Archivo de configuración @file aplicado
 58:
 59:
 60:

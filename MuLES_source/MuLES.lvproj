@@ -33,6 +33,9 @@
 		<Item Name="eeg_files" Type="Folder" URL="../eeg_files">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
+		<Item Name="client_examples" Type="Folder" URL="../client_examples">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
 		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
 		<Item Name="config.ini" Type="Document" URL="../config.ini"/>
 		<Item Name="REQUIREMENTS.txt" Type="Document" URL="../REQUIREMENTS.txt"/>
@@ -248,7 +251,6 @@
 				<Property Name="App_INI_GUID" Type="Str">{96619C8A-9921-4385-AB90-84B47CAC4986}</Property>
 				<Property Name="App_INI_itemID" Type="Ref">/My Computer/source_vi/gui/various/mules.ini</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
-				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{01CE06F4-9E9B-4D6F-B545-4EC2E604789E}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">MuLES_portable</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
@@ -257,9 +259,9 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{58060354-9400-4D2A-9761-AA539898DD57}</Property>
-				<Property Name="Bld_version.build" Type="Int">15</Property>
+				<Property Name="Bld_version.build" Type="Int">30</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Bld_version.minor" Type="Int">1</Property>
+				<Property Name="Bld_version.minor" Type="Int">2</Property>
 				<Property Name="Destination[0].destName" Type="Str">mules.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/MuLES/mules.exe</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
@@ -274,10 +276,13 @@
 				<Property Name="Destination[4].path" Type="Path">../builds/NI_AB_PROJECTNAME/MuLES/languages</Property>
 				<Property Name="Destination[5].destName" Type="Str">eeg_files</Property>
 				<Property Name="Destination[5].path" Type="Path">../builds/NI_AB_PROJECTNAME/MuLES/eeg_files</Property>
-				<Property Name="DestinationCount" Type="Int">6</Property>
+				<Property Name="Destination[6].destName" Type="Str">client_examples</Property>
+				<Property Name="Destination[6].path" Type="Path">../builds/NI_AB_PROJECTNAME/MuLES/client_examples</Property>
+				<Property Name="Destination[6].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="DestinationCount" Type="Int">7</Property>
 				<Property Name="Exe_cmdLineArgs" Type="Bool">true</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/source_vi/gui/various/MuLES_icon.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{A52F65D1-9817-46AC-803D-5F4CFAE1383E}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{0B13CD33-7197-4323-BE55-580AFBF942A6}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Main.vi</Property>
@@ -304,7 +309,13 @@
 				<Property Name="Source[5].itemID" Type="Ref">/My Computer/eeg_files</Property>
 				<Property Name="Source[5].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[5].type" Type="Str">Container</Property>
-				<Property Name="SourceCount" Type="Int">6</Property>
+				<Property Name="Source[6].Container.applyDestination" Type="Bool">true</Property>
+				<Property Name="Source[6].Container.applyInclusion" Type="Bool">true</Property>
+				<Property Name="Source[6].destinationIndex" Type="Int">6</Property>
+				<Property Name="Source[6].itemID" Type="Ref">/My Computer/client_examples</Property>
+				<Property Name="Source[6].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[6].type" Type="Str">Container</Property>
+				<Property Name="SourceCount" Type="Int">7</Property>
 				<Property Name="TgtF_companyName" Type="Str">MuSAE Lab</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">MuSAE Lab EEG Server. Provides and interface between different EEG devices and applications</Property>
 				<Property Name="TgtF_internalName" Type="Str">MuLES</Property>
@@ -371,7 +382,7 @@
 				<Property Name="INST_buildSpecName" Type="Str">MuLES_installer</Property>
 				<Property Name="INST_defaultDir" Type="Str">{1E42C379-2480-403F-95B0-89B3CCD541CA}</Property>
 				<Property Name="INST_productName" Type="Str">MuLES</Property>
-				<Property Name="INST_productVersion" Type="Str">1.1.0</Property>
+				<Property Name="INST_productVersion" Type="Str">1.2.0</Property>
 				<Property Name="INST_readmeID" Type="Ref">/My Computer/source_vi/gui/various/README.rtf</Property>
 				<Property Name="InstSpecBitness" Type="Str">32-bit</Property>
 				<Property Name="InstSpecVersion" Type="Str">13008047</Property>
