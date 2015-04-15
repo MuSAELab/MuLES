@@ -102,8 +102,8 @@ tic
 marker = true;
 
 while true
-% 6 Request EEG data every 500ms
-    pause(0.5);
+% 6 Request EEG data every 300ms
+    pause(0.3);
     command = 'R';
     fwrite(client_cnx, command);
 
@@ -112,8 +112,9 @@ while true
     eeg_package = fread(client_cnx,nBytes);
     eeg_data = mules_parse_data(eeg_package,data_format);
 
-    buffer = [eeg_data; buffer];
-    buffer = buffer(1:buffer_sec*fs,:);
+    new_lines = size(eeg_data,1);
+    buffer = [buffer;eeg_data];
+    buffer = buffer(1+new_lines:end,:);
     
     % 7 Plot EEG data
     n_samples = size(buffer,1);
