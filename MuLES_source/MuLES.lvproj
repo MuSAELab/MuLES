@@ -221,7 +221,6 @@
 				<Item Name="WDT Number of Waveform Samples SGL.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/WDT Number of Waveform Samples SGL.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
-			<Item Name="ascii_textfilter.vi" Type="VI" URL="../../../../../inrs/code/labview/test/edf_files_exe/EDF_for_Labview/EDF_for_Labview/EDFrecorder Labview 2011/ascii_textfilter.vi"/>
 			<Item Name="lvStorage.dll" Type="Document" URL="lvStorage.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
