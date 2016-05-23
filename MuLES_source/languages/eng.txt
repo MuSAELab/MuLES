@@ -33,13 +33,13 @@
 32: At least one option must be enabled
 33: Select LOGGING and/or TCP SERVER then click in PLAY
 34: Selected file: @path
-35: Error at openning file
+35: Error at opening file
 36: Connecting with @device 
 37: Connection with @device was successful  
 38: MuLES is waiting for network client ... 
 39: MuLES connected to client: @ip  
 40: TCP connection closed successfuly 
-41: @file was close well 
+41: @file was closed well 
 42: Do you want to Exit?
 43: Yes, I do 
 44: No
@@ -53,7 +53,7 @@
 52: End of file: @path 
 53: EEG data will be saved in @file
 54: TCP connection will be closed
-55: Indicates than Logging will be stoped
+55: Indicates than Logging will be stopped
 56: File @file is over.
 57: Configuration @file loaded
 58:
