@@ -396,12 +396,13 @@
 				<Property Name="Source[0].dest" Type="Str">{1E42C379-2480-403F-95B0-89B3CCD541CA}</Property>
 				<Property Name="Source[0].File[0].dest" Type="Str">{1E42C379-2480-403F-95B0-89B3CCD541CA}</Property>
 				<Property Name="Source[0].File[0].name" Type="Str">mules.exe</Property>
-				<Property Name="Source[0].File[0].Shortcut[0].destIndex" Type="Int">0</Property>
+				<Property Name="Source[0].File[0].Shortcut[0].destIndex" Type="Int">1</Property>
 				<Property Name="Source[0].File[0].Shortcut[0].name" Type="Str">MuLES</Property>
-				<Property Name="Source[0].File[0].Shortcut[0].subDir" Type="Str"></Property>
+				<Property Name="Source[0].File[0].Shortcut[0].subDir" Type="Str">MuLES</Property>
 				<Property Name="Source[0].File[0].Shortcut[1].destIndex" Type="Int">1</Property>
 				<Property Name="Source[0].File[0].Shortcut[1].name" Type="Str">MuLES</Property>
 				<Property Name="Source[0].File[0].Shortcut[1].subDir" Type="Str"></Property>
+				<Property Name="Source[0].File[0].ShortcutCount" Type="Int">1</Property>
 				<Property Name="Source[0].File[0].tag" Type="Str">{56287559-D975-45BF-853A-304CF4A6B0CD}</Property>
 				<Property Name="Source[0].FileCount" Type="Int">1</Property>
 				<Property Name="Source[0].name" Type="Str">MuLES_portable</Property>
