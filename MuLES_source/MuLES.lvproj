@@ -249,6 +249,7 @@
 				<Property Name="App_INI_GUID" Type="Str">{96619C8A-9921-4385-AB90-84B47CAC4986}</Property>
 				<Property Name="App_INI_itemID" Type="Ref">/My Computer/source_vi/gui/various/mules.ini</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{01CE06F4-9E9B-4D6F-B545-4EC2E604789E}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">MuLES_portable</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
@@ -257,10 +258,10 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{58060354-9400-4D2A-9761-AA539898DD57}</Property>
-				<Property Name="Bld_version.build" Type="Int">30</Property>
+				<Property Name="Bld_version.build" Type="Int">2</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Bld_version.minor" Type="Int">3</Property>
-				<Property Name="Bld_version.patch" Type="Int">1</Property>
+				<Property Name="Bld_version.patch" Type="Int">2</Property>
 				<Property Name="Destination[0].destName" Type="Str">mules.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/MuLES_portable/NI_AB_PROJECTNAME/mules.exe</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
@@ -281,7 +282,7 @@
 				<Property Name="DestinationCount" Type="Int">7</Property>
 				<Property Name="Exe_cmdLineArgs" Type="Bool">true</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/source_vi/gui/various/MuLES_icon.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{A990435E-AA0E-4B3C-B6BC-D2CEC507E015}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{4E2C6847-987A-4EA7-BF97-705E3104B92E}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Main.vi</Property>
