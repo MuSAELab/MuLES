@@ -398,7 +398,7 @@
 				<Property Name="Source[0].File[0].name" Type="Str">mules.exe</Property>
 				<Property Name="Source[0].File[0].Shortcut[0].destIndex" Type="Int">1</Property>
 				<Property Name="Source[0].File[0].Shortcut[0].name" Type="Str">MuLES</Property>
-				<Property Name="Source[0].File[0].Shortcut[0].subDir" Type="Str">MuLES</Property>
+				<Property Name="Source[0].File[0].Shortcut[0].subDir" Type="Str"></Property>
 				<Property Name="Source[0].File[0].Shortcut[1].destIndex" Type="Int">1</Property>
 				<Property Name="Source[0].File[0].Shortcut[1].name" Type="Str">MuLES</Property>
 				<Property Name="Source[0].File[0].Shortcut[1].subDir" Type="Str"></Property>
