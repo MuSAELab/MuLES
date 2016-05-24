@@ -14,6 +14,8 @@ URL: https://decibel.ni.com/content/docs/DOC-19690
 * NI Open Sound Control (1.0.2.16)
 URL: http://sine.ni.com/nips/cds/view/p/lang/en/nid/211428
 
+* LabVIEW BioHarness3 Toolkit
+  To be released June 2016, meanwhile you can ask for the beta version at raymundo.cassani@gmail.com
 
 (The use of JKI VI Packager Manager is recommended)
 

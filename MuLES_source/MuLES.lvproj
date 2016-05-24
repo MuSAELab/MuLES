@@ -106,6 +106,23 @@
 				<Item Name="_stringsToBeTranslated.ctl" Type="VI" URL="/&lt;vilib&gt;/Platform/storage/lvStorage.llb/_stringsToBeTranslated.ctl"/>
 				<Item Name="_TDM_DATA_MODEL.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/storage/Storage.llb/_TDM_DATA_MODEL.vi"/>
 				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
+				<Item Name="bh3_acc100mg_waveform_format.vi" Type="VI" URL="/&lt;vilib&gt;/MuSAE Lab/BioHarness3 Toolkit/support_vi/bh3_acc100mg_waveform_format.vi"/>
+				<Item Name="bh3_bluetooth_read.vi" Type="VI" URL="/&lt;vilib&gt;/MuSAE Lab/BioHarness3 Toolkit/support_vi/bh3_bluetooth_read.vi"/>
+				<Item Name="bh3_breathing_waveform_format.vi" Type="VI" URL="/&lt;vilib&gt;/MuSAE Lab/BioHarness3 Toolkit/support_vi/bh3_breathing_waveform_format.vi"/>
+				<Item Name="bh3_crc8.vi" Type="VI" URL="/&lt;vilib&gt;/MuSAE Lab/BioHarness3 Toolkit/support_vi/bh3_crc8.vi"/>
+				<Item Name="bh3_create_package.vi" Type="VI" URL="/&lt;vilib&gt;/MuSAE Lab/BioHarness3 Toolkit/support_vi/bh3_create_package.vi"/>
+				<Item Name="bh3_data_array_to_data_string.vi" Type="VI" URL="/&lt;vilib&gt;/MuSAE Lab/BioHarness3 Toolkit/support_vi/bh3_data_array_to_data_string.vi"/>
+				<Item Name="bh3_ECG_waveform_format.vi" Type="VI" URL="/&lt;vilib&gt;/MuSAE Lab/BioHarness3 Toolkit/support_vi/bh3_ECG_waveform_format.vi"/>
+				<Item Name="bh3_lifesign.vi" Type="VI" URL="/&lt;vilib&gt;/MuSAE Lab/BioHarness3 Toolkit/command_vi/bh3_lifesign.vi"/>
+				<Item Name="bh3_open_bt_cnx.vi" Type="VI" URL="/&lt;vilib&gt;/MuSAE Lab/BioHarness3 Toolkit/support_vi/bh3_open_bt_cnx.vi"/>
+				<Item Name="bh3_set_accelerometer_100mg_packet_transmit_state.vi" Type="VI" URL="/&lt;vilib&gt;/MuSAE Lab/BioHarness3 Toolkit/command_vi/bh3_set_accelerometer_100mg_packet_transmit_state.vi"/>
+				<Item Name="bh3_set_accelerometer_packet_transmit_state.vi" Type="VI" URL="/&lt;vilib&gt;/MuSAE Lab/BioHarness3 Toolkit/command_vi/bh3_set_accelerometer_packet_transmit_state.vi"/>
+				<Item Name="bh3_set_breathing_waveform_packet_transmit_state.vi" Type="VI" URL="/&lt;vilib&gt;/MuSAE Lab/BioHarness3 Toolkit/command_vi/bh3_set_breathing_waveform_packet_transmit_state.vi"/>
+				<Item Name="bh3_set_ECG_waveform_packet_transmit_state.vi" Type="VI" URL="/&lt;vilib&gt;/MuSAE Lab/BioHarness3 Toolkit/command_vi/bh3_set_ECG_waveform_packet_transmit_state.vi"/>
+				<Item Name="bh3_set_extended_data_packet_transmit_state.vi" Type="VI" URL="/&lt;vilib&gt;/MuSAE Lab/BioHarness3 Toolkit/command_vi/bh3_set_extended_data_packet_transmit_state.vi"/>
+				<Item Name="bh3_set_general_data_packet_transmit_state.vi" Type="VI" URL="/&lt;vilib&gt;/MuSAE Lab/BioHarness3 Toolkit/command_vi/bh3_set_general_data_packet_transmit_state.vi"/>
+				<Item Name="bh3_set_r_r_data_packet_transmit_state.vi" Type="VI" URL="/&lt;vilib&gt;/MuSAE Lab/BioHarness3 Toolkit/command_vi/bh3_set_r_r_data_packet_transmit_state.vi"/>
+				<Item Name="bh3_stop_all_transmit_state.vi" Type="VI" URL="/&lt;vilib&gt;/MuSAE Lab/BioHarness3 Toolkit/command_vi/bh3_stop_all_transmit_state.vi"/>
 				<Item Name="Bluetooth Generate Error Cluster.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/Bluetooth.llb/Bluetooth Generate Error Cluster.vi"/>
 				<Item Name="Bluetooth RFCOMM Service Discovery.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/Bluetooth.llb/Bluetooth RFCOMM Service Discovery.vi"/>
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
@@ -236,7 +253,7 @@
 				<Property Name="Bld_buildSpecName" Type="Str">MuLES_portable</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/MuLES</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/MuLES_portable/NI_AB_PROJECTNAME</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{58060354-9400-4D2A-9761-AA539898DD57}</Property>
@@ -245,26 +262,26 @@
 				<Property Name="Bld_version.minor" Type="Int">3</Property>
 				<Property Name="Bld_version.patch" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">mules.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/MuLES/mules.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/MuLES_portable/NI_AB_PROJECTNAME/mules.exe</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/MuLES/data</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/MuLES_portable/NI_AB_PROJECTNAME/data</Property>
 				<Property Name="Destination[2].destName" Type="Str">MuLES folder</Property>
-				<Property Name="Destination[2].path" Type="Path">../builds/NI_AB_PROJECTNAME/MuLES</Property>
+				<Property Name="Destination[2].path" Type="Path">../builds/MuLES_portable/NI_AB_PROJECTNAME</Property>
 				<Property Name="Destination[3].destName" Type="Str">images</Property>
-				<Property Name="Destination[3].path" Type="Path">../builds/NI_AB_PROJECTNAME/MuLES/images</Property>
+				<Property Name="Destination[3].path" Type="Path">../builds/MuLES_portable/NI_AB_PROJECTNAME/images</Property>
 				<Property Name="Destination[4].destName" Type="Str">languages</Property>
-				<Property Name="Destination[4].path" Type="Path">../builds/NI_AB_PROJECTNAME/MuLES/languages</Property>
+				<Property Name="Destination[4].path" Type="Path">../builds/MuLES_portable/NI_AB_PROJECTNAME/languages</Property>
 				<Property Name="Destination[5].destName" Type="Str">eeg_files</Property>
-				<Property Name="Destination[5].path" Type="Path">../builds/NI_AB_PROJECTNAME/MuLES/eeg_files</Property>
+				<Property Name="Destination[5].path" Type="Path">../builds/MuLES_portable/NI_AB_PROJECTNAME/eeg_files</Property>
 				<Property Name="Destination[6].destName" Type="Str">client_examples</Property>
-				<Property Name="Destination[6].path" Type="Path">../builds/NI_AB_PROJECTNAME/MuLES/client_examples</Property>
+				<Property Name="Destination[6].path" Type="Path">../builds/MuLES_portable/NI_AB_PROJECTNAME/client_examples</Property>
 				<Property Name="Destination[6].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="DestinationCount" Type="Int">7</Property>
 				<Property Name="Exe_cmdLineArgs" Type="Bool">true</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/source_vi/gui/various/MuLES_icon.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{4192E326-1553-47DA-B484-96D3E503980F}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{A990435E-AA0E-4B3C-B6BC-D2CEC507E015}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Main.vi</Property>
@@ -318,48 +335,44 @@
 				<Property Name="Destination[1].type" Type="Str">userFolder</Property>
 				<Property Name="Destination[1].unlock" Type="Bool">true</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="DistPart[0].flavorID" Type="Str">_full_</Property>
-				<Property Name="DistPart[0].productID" Type="Str">{FE82D7AF-0A22-40E8-B7A5-9D7615296BA6}</Property>
-				<Property Name="DistPart[0].productName" Type="Str">NI USI 2.0.1</Property>
-				<Property Name="DistPart[0].upgradeCode" Type="Str">{D1EDC484-7B17-11D7-83CE-00C0F03EBEBE}</Property>
-				<Property Name="DistPart[1].flavorID" Type="Str">DefaultFull</Property>
-				<Property Name="DistPart[1].productID" Type="Str">{C0446EC0-D69F-44C3-B3AD-E04EA7FAE72B}</Property>
-				<Property Name="DistPart[1].productName" Type="Str">NI LabVIEW Run-Time Engine 2013</Property>
-				<Property Name="DistPart[1].SoftDep[0].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[1].SoftDep[0].productName" Type="Str">NI LabVIEW 2013 Run-Time Engine Non-English Support.</Property>
-				<Property Name="DistPart[1].SoftDep[0].upgradeCode" Type="Str">{DDE96050-C9ED-4EAC-B310-5EA217776FEA}</Property>
-				<Property Name="DistPart[1].SoftDep[1].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[1].SoftDep[1].productName" Type="Str">NI ActiveX Container</Property>
-				<Property Name="DistPart[1].SoftDep[1].upgradeCode" Type="Str">{1038A887-23E1-4289-B0BD-0C4B83C6BA21}</Property>
-				<Property Name="DistPart[1].SoftDep[2].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[1].SoftDep[2].productName" Type="Str">NI System Web Server 13.0</Property>
-				<Property Name="DistPart[1].SoftDep[2].upgradeCode" Type="Str">{FCF64B73-B7D4-4971-8F11-24BAF7CC3E6C}</Property>
-				<Property Name="DistPart[1].SoftDep[3].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[1].SoftDep[3].productName" Type="Str">Math Kernel Libraries</Property>
-				<Property Name="DistPart[1].SoftDep[3].upgradeCode" Type="Str">{EA05DCF9-F239-4387-8904-04D678031F6B}</Property>
-				<Property Name="DistPart[1].SoftDep[4].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[1].SoftDep[4].productName" Type="Str">NI Logos 5.5</Property>
-				<Property Name="DistPart[1].SoftDep[4].upgradeCode" Type="Str">{5E4A4CE3-4D06-11D4-8B22-006008C16337}</Property>
-				<Property Name="DistPart[1].SoftDep[5].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[1].SoftDep[5].productName" Type="Str">NI TDM Streaming 2.4</Property>
-				<Property Name="DistPart[1].SoftDep[5].upgradeCode" Type="Str">{4CD11BE6-6BB7-4082-8A27-C13771BC309B}</Property>
-				<Property Name="DistPart[1].SoftDep[6].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[1].SoftDep[6].productName" Type="Str">NI LabVIEW 2013 Web Server</Property>
-				<Property Name="DistPart[1].SoftDep[6].upgradeCode" Type="Str">{A66A5CC8-EEB5-4982-8B92-F591AF36060E}</Property>
-				<Property Name="DistPart[1].SoftDep[7].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[1].SoftDep[7].productName" Type="Str">NI LabVIEW 2013 Real-Time NBFifo</Property>
-				<Property Name="DistPart[1].SoftDep[7].upgradeCode" Type="Str">{76E4763E-0DC4-4195-BC50-084193FFA84B}</Property>
-				<Property Name="DistPart[1].SoftDep[8].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[1].SoftDep[8].productName" Type="Str">NI VC2008MSMs</Property>
-				<Property Name="DistPart[1].SoftDep[8].upgradeCode" Type="Str">{FDA3F8BB-BAA9-45D7-8DC7-22E1F5C76315}</Property>
-				<Property Name="DistPart[1].SoftDep[9].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[1].SoftDep[9].productName" Type="Str">NI Error Reporting 2013</Property>
-				<Property Name="DistPart[1].SoftDep[9].upgradeCode" Type="Str">{42E818C6-2B08-4DE7-BD91-B0FD704C119A}</Property>
-				<Property Name="DistPart[1].SoftDepCount" Type="Int">10</Property>
-				<Property Name="DistPart[1].upgradeCode" Type="Str">{A661D981-0A3B-4081-A5B5-1FAA03CFAF84}</Property>
-				<Property Name="DistPartCount" Type="Int">2</Property>
+				<Property Name="DistPart[0].flavorID" Type="Str">DefaultFull</Property>
+				<Property Name="DistPart[0].productID" Type="Str">{CD4CAB41-CAB7-436F-8D66-A83B95F2F3E6}</Property>
+				<Property Name="DistPart[0].productName" Type="Str">NI LabVIEW Run-Time Engine 2013 f2</Property>
+				<Property Name="DistPart[0].SoftDep[0].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[0].SoftDep[0].productName" Type="Str">NI LabVIEW 2013 Run-Time Engine Non-English Support.</Property>
+				<Property Name="DistPart[0].SoftDep[0].upgradeCode" Type="Str">{DDE96050-C9ED-4EAC-B310-5EA217776FEA}</Property>
+				<Property Name="DistPart[0].SoftDep[1].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[0].SoftDep[1].productName" Type="Str">NI ActiveX Container</Property>
+				<Property Name="DistPart[0].SoftDep[1].upgradeCode" Type="Str">{1038A887-23E1-4289-B0BD-0C4B83C6BA21}</Property>
+				<Property Name="DistPart[0].SoftDep[2].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[0].SoftDep[2].productName" Type="Str">NI System Web Server 13.0</Property>
+				<Property Name="DistPart[0].SoftDep[2].upgradeCode" Type="Str">{FCF64B73-B7D4-4971-8F11-24BAF7CC3E6C}</Property>
+				<Property Name="DistPart[0].SoftDep[3].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[0].SoftDep[3].productName" Type="Str">Math Kernel Libraries</Property>
+				<Property Name="DistPart[0].SoftDep[3].upgradeCode" Type="Str">{EA05DCF9-F239-4387-8904-04D678031F6B}</Property>
+				<Property Name="DistPart[0].SoftDep[4].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[0].SoftDep[4].productName" Type="Str">NI Logos 5.5</Property>
+				<Property Name="DistPart[0].SoftDep[4].upgradeCode" Type="Str">{5E4A4CE3-4D06-11D4-8B22-006008C16337}</Property>
+				<Property Name="DistPart[0].SoftDep[5].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[0].SoftDep[5].productName" Type="Str">NI TDM Streaming 2.4</Property>
+				<Property Name="DistPart[0].SoftDep[5].upgradeCode" Type="Str">{4CD11BE6-6BB7-4082-8A27-C13771BC309B}</Property>
+				<Property Name="DistPart[0].SoftDep[6].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[0].SoftDep[6].productName" Type="Str">NI LabVIEW 2013 Web Server</Property>
+				<Property Name="DistPart[0].SoftDep[6].upgradeCode" Type="Str">{A66A5CC8-EEB5-4982-8B92-F591AF36060E}</Property>
+				<Property Name="DistPart[0].SoftDep[7].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[0].SoftDep[7].productName" Type="Str">NI LabVIEW 2013 Real-Time NBFifo</Property>
+				<Property Name="DistPart[0].SoftDep[7].upgradeCode" Type="Str">{76E4763E-0DC4-4195-BC50-084193FFA84B}</Property>
+				<Property Name="DistPart[0].SoftDep[8].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[0].SoftDep[8].productName" Type="Str">NI VC2008MSMs</Property>
+				<Property Name="DistPart[0].SoftDep[8].upgradeCode" Type="Str">{FDA3F8BB-BAA9-45D7-8DC7-22E1F5C76315}</Property>
+				<Property Name="DistPart[0].SoftDep[9].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[0].SoftDep[9].productName" Type="Str">NI Error Reporting 2013</Property>
+				<Property Name="DistPart[0].SoftDep[9].upgradeCode" Type="Str">{42E818C6-2B08-4DE7-BD91-B0FD704C119A}</Property>
+				<Property Name="DistPart[0].SoftDepCount" Type="Int">10</Property>
+				<Property Name="DistPart[0].upgradeCode" Type="Str">{A661D981-0A3B-4081-A5B5-1FAA03CFAF84}</Property>
+				<Property Name="DistPartCount" Type="Int">1</Property>
 				<Property Name="INST_author" Type="Str">Toshiba</Property>
-				<Property Name="INST_buildLocation" Type="Path">../builds/MuLES/MuLES_installer</Property>
+				<Property Name="INST_buildLocation" Type="Path">../builds/MuLES_installer</Property>
 				<Property Name="INST_buildLocation.type" Type="Str">relativeToCommon</Property>
 				<Property Name="INST_buildSpecName" Type="Str">MuLES_installer</Property>
 				<Property Name="INST_defaultDir" Type="Str">{1E42C379-2480-403F-95B0-89B3CCD541CA}</Property>
@@ -367,10 +380,9 @@
 				<Property Name="INST_productVersion" Type="Str">1.3.0</Property>
 				<Property Name="INST_readmeID" Type="Ref">/My Computer/source_vi/gui/various/README.rtf</Property>
 				<Property Name="InstSpecBitness" Type="Str">32-bit</Property>
-				<Property Name="InstSpecVersion" Type="Str">13008047</Property>
+				<Property Name="InstSpecVersion" Type="Str">13008051</Property>
 				<Property Name="MSI_arpCompany" Type="Str">MuSAE Lab</Property>
 				<Property Name="MSI_arpURL" Type="Str">http://musaelab.ca/</Property>
-				<Property Name="MSI_autoselectDrivers" Type="Bool">true</Property>
 				<Property Name="MSI_distID" Type="Str">{BF5C95BB-5DE7-42D2-BE60-2D00405006A9}</Property>
 				<Property Name="MSI_licenseID" Type="Ref">/My Computer/source_vi/gui/various/LICENSE.rtf</Property>
 				<Property Name="MSI_osCheck" Type="Int">0</Property>
@@ -390,66 +402,8 @@
 				<Property Name="Source[0].File[0].Shortcut[1].destIndex" Type="Int">1</Property>
 				<Property Name="Source[0].File[0].Shortcut[1].name" Type="Str">MuLES</Property>
 				<Property Name="Source[0].File[0].Shortcut[1].subDir" Type="Str"></Property>
-				<Property Name="Source[0].File[0].ShortcutCount" Type="Int">2</Property>
 				<Property Name="Source[0].File[0].tag" Type="Str">{56287559-D975-45BF-853A-304CF4A6B0CD}</Property>
-				<Property Name="Source[0].File[0].unlock" Type="Bool">true</Property>
-				<Property Name="Source[0].File[1].dest" Type="Str">{1E42C379-2480-403F-95B0-89B3CCD541CA}</Property>
-				<Property Name="Source[0].File[1].name" Type="Str">mules.aliases</Property>
-				<Property Name="Source[0].File[1].tag" Type="Str">{AA23FAA7-FFA5-40D8-A957-47AC765A3DE3}</Property>
-				<Property Name="Source[0].File[1].unlock" Type="Bool">true</Property>
-				<Property Name="Source[0].File[10].dest" Type="Str">{1E42C379-2480-403F-95B0-89B3CCD541CA}</Property>
-				<Property Name="Source[0].File[10].name" Type="Str">neurosky_mindset.jpg</Property>
-				<Property Name="Source[0].File[10].tag" Type="Ref">/My Computer/images/neurosky_mindset.jpg</Property>
-				<Property Name="Source[0].File[10].unlock" Type="Bool">true</Property>
-				<Property Name="Source[0].File[11].dest" Type="Str">{1E42C379-2480-403F-95B0-89B3CCD541CA}</Property>
-				<Property Name="Source[0].File[11].name" Type="Str">openbci_v3.jpg</Property>
-				<Property Name="Source[0].File[11].tag" Type="Ref">/My Computer/images/openbci_v3.jpg</Property>
-				<Property Name="Source[0].File[11].unlock" Type="Bool">true</Property>
-				<Property Name="Source[0].File[12].dest" Type="Str">{1E42C379-2480-403F-95B0-89B3CCD541CA}</Property>
-				<Property Name="Source[0].File[12].name" Type="Str">eng.txt</Property>
-				<Property Name="Source[0].File[12].tag" Type="Ref">/My Computer/languages/eng.txt</Property>
-				<Property Name="Source[0].File[12].unlock" Type="Bool">true</Property>
-				<Property Name="Source[0].File[13].dest" Type="Str">{1E42C379-2480-403F-95B0-89B3CCD541CA}</Property>
-				<Property Name="Source[0].File[13].name" Type="Str">fra.txt</Property>
-				<Property Name="Source[0].File[13].tag" Type="Ref">/My Computer/languages/fra.txt</Property>
-				<Property Name="Source[0].File[13].unlock" Type="Bool">true</Property>
-				<Property Name="Source[0].File[14].dest" Type="Str">{1E42C379-2480-403F-95B0-89B3CCD541CA}</Property>
-				<Property Name="Source[0].File[14].name" Type="Str">spa.txt</Property>
-				<Property Name="Source[0].File[14].tag" Type="Ref">/My Computer/languages/spa.txt</Property>
-				<Property Name="Source[0].File[14].unlock" Type="Bool">true</Property>
-				<Property Name="Source[0].File[2].dest" Type="Str">{1E42C379-2480-403F-95B0-89B3CCD541CA}</Property>
-				<Property Name="Source[0].File[2].name" Type="Str">mules.ini</Property>
-				<Property Name="Source[0].File[2].tag" Type="Str">{96619C8A-9921-4385-AB90-84B47CAC4986}</Property>
-				<Property Name="Source[0].File[2].unlock" Type="Bool">true</Property>
-				<Property Name="Source[0].File[3].dest" Type="Str">{1E42C379-2480-403F-95B0-89B3CCD541CA}</Property>
-				<Property Name="Source[0].File[3].name" Type="Str">config.ini</Property>
-				<Property Name="Source[0].File[3].tag" Type="Ref">/My Computer/config.ini</Property>
-				<Property Name="Source[0].File[3].unlock" Type="Bool">true</Property>
-				<Property Name="Source[0].File[4].dest" Type="Str">{1E42C379-2480-403F-95B0-89B3CCD541CA}</Property>
-				<Property Name="Source[0].File[4].name" Type="Str">log20141210_195303.csv</Property>
-				<Property Name="Source[0].File[4].tag" Type="Ref">/My Computer/eeg_files/log20141210_195303.csv</Property>
-				<Property Name="Source[0].File[4].unlock" Type="Bool">true</Property>
-				<Property Name="Source[0].File[5].dest" Type="Str">{1E42C379-2480-403F-95B0-89B3CCD541CA}</Property>
-				<Property Name="Source[0].File[5].name" Type="Str">log20141210_195303.edf</Property>
-				<Property Name="Source[0].File[5].tag" Type="Ref">/My Computer/eeg_files/log20141210_195303.edf</Property>
-				<Property Name="Source[0].File[5].unlock" Type="Bool">true</Property>
-				<Property Name="Source[0].File[6].dest" Type="Str">{1E42C379-2480-403F-95B0-89B3CCD541CA}</Property>
-				<Property Name="Source[0].File[6].name" Type="Str">emotiv_epoc.jpg</Property>
-				<Property Name="Source[0].File[6].tag" Type="Ref">/My Computer/images/emotiv_epoc.jpg</Property>
-				<Property Name="Source[0].File[6].unlock" Type="Bool">true</Property>
-				<Property Name="Source[0].File[7].dest" Type="Str">{1E42C379-2480-403F-95B0-89B3CCD541CA}</Property>
-				<Property Name="Source[0].File[7].name" Type="Str">file.jpg</Property>
-				<Property Name="Source[0].File[7].tag" Type="Ref">/My Computer/images/file.jpg</Property>
-				<Property Name="Source[0].File[7].unlock" Type="Bool">true</Property>
-				<Property Name="Source[0].File[8].dest" Type="Str">{1E42C379-2480-403F-95B0-89B3CCD541CA}</Property>
-				<Property Name="Source[0].File[8].name" Type="Str">interaxon_muse.jpg</Property>
-				<Property Name="Source[0].File[8].tag" Type="Ref">/My Computer/images/interaxon_muse.jpg</Property>
-				<Property Name="Source[0].File[8].unlock" Type="Bool">true</Property>
-				<Property Name="Source[0].File[9].dest" Type="Str">{1E42C379-2480-403F-95B0-89B3CCD541CA}</Property>
-				<Property Name="Source[0].File[9].name" Type="Str">neuroelectrics_enobio.jpg</Property>
-				<Property Name="Source[0].File[9].tag" Type="Ref">/My Computer/images/neuroelectrics_enobio.jpg</Property>
-				<Property Name="Source[0].File[9].unlock" Type="Bool">true</Property>
-				<Property Name="Source[0].FileCount" Type="Int">15</Property>
+				<Property Name="Source[0].FileCount" Type="Int">1</Property>
 				<Property Name="Source[0].name" Type="Str">MuLES_portable</Property>
 				<Property Name="Source[0].tag" Type="Ref">/My Computer/Build Specifications/MuLES_portable</Property>
 				<Property Name="Source[0].type" Type="Str">EXE</Property>
