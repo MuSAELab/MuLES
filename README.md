@@ -25,8 +25,8 @@ The installation processes for MuLES is simple
 
 ## Test
 - Run ```mules.exe```, a Desktop shortcut is created by the MuLES installer  
-  Alternatively, MuLES executable is located in
-```C:\Program Files (x86)\MuSAE_Lab\MuLES\``` for Windows 64bit  or  
+  Alternatively, MuLES executable is located in: </br>
+```C:\Program Files (x86)\MuSAE_Lab\MuLES\``` for Windows 64bit  
  ```C:\Program Files\MuSAE_Lab\MuLES\```  for Windows 32bit
 
-- Open the Simple Client Example for Matlab or Python: </br> (```C:\Program Files (x86)\MuSAE_Lab\MuLES\client_examples\matlab\simple_client_example.m```) </br> or </br> (```C:\Program Files (x86)\MuSAE_Lab\MuLES\client_examples\python\simple_client_example.py```) </br> respectively. </br> And follow the instructions provided.
+- Open the Simple Client Example for Matlab or Python (2 and 3): </br> (```C:\Program Files (x86)\MuSAE_Lab\MuLES\client_examples\matlab\example_simple_client.m```) </br> or </br> (```C:\Program Files (x86)\MuSAE_Lab\MuLES\client_examples\python\example_simple_client.py```) </br> respectively. </br> And follow the instructions in the scripts.
