@@ -33,9 +33,6 @@
 		<Item Name="eeg_files" Type="Folder" URL="../eeg_files">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
-		<Item Name="client_examples" Type="Folder" URL="../client_examples">
-			<Property Name="NI.DISK" Type="Bool">true</Property>
-		</Item>
 		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
 		<Item Name="config.ini" Type="Document" URL="../config.ini"/>
 		<Item Name="REQUIREMENTS.txt" Type="Document" URL="../REQUIREMENTS.txt"/>
@@ -187,6 +184,7 @@
 				<Item Name="openbci_close_cnx.vi" Type="VI" URL="/&lt;vilib&gt;/OpenBCI/Comm Protocol/openbci_close_cnx.vi"/>
 				<Item Name="openbci_device.ctl" Type="VI" URL="/&lt;vilib&gt;/OpenBCI/Comm Protocol/Control Def/openbci_device.ctl"/>
 				<Item Name="openbci_eeg_order_8ch_16ch.vi" Type="VI" URL="/&lt;vilib&gt;/OpenBCI/Support/openbci_eeg_order_8ch_16ch.vi"/>
+				<Item Name="openbci_is_daisy.vi" Type="VI" URL="/&lt;vilib&gt;/OpenBCI/Support/openbci_is_daisy.vi"/>
 				<Item Name="openbci_new_cnx.vi" Type="VI" URL="/&lt;vilib&gt;/OpenBCI/Comm Protocol/openbci_new_cnx.vi"/>
 				<Item Name="openbci_parse_acc_data.vi" Type="VI" URL="/&lt;vilib&gt;/OpenBCI/Support/openbci_parse_acc_data.vi"/>
 				<Item Name="openbci_parse_eeg_data.vi" Type="VI" URL="/&lt;vilib&gt;/OpenBCI/Support/openbci_parse_eeg_data.vi"/>
@@ -228,6 +226,7 @@
 				<Item Name="VISA Configure Serial Port" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port"/>
 				<Item Name="VISA Configure Serial Port (Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Instr).vi"/>
 				<Item Name="VISA Configure Serial Port (Serial Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Serial Instr).vi"/>
+				<Item Name="VISA Set IO Buffer Mask.ctl" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Set IO Buffer Mask.ctl"/>
 				<Item Name="Waveform Array To Dynamic.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/transition.llb/Waveform Array To Dynamic.vi"/>
 				<Item Name="WDT Number of Waveform Samples CDB.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/WDT Number of Waveform Samples CDB.vi"/>
 				<Item Name="WDT Number of Waveform Samples DBL.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/WDT Number of Waveform Samples DBL.vi"/>
@@ -249,7 +248,6 @@
 				<Property Name="App_INI_GUID" Type="Str">{96619C8A-9921-4385-AB90-84B47CAC4986}</Property>
 				<Property Name="App_INI_itemID" Type="Ref">/My Computer/source_vi/gui/various/mules.ini</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
-				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{01CE06F4-9E9B-4D6F-B545-4EC2E604789E}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">MuLES_portable</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
@@ -258,10 +256,8 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{58060354-9400-4D2A-9761-AA539898DD57}</Property>
-				<Property Name="Bld_version.build" Type="Int">4</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Bld_version.minor" Type="Int">3</Property>
-				<Property Name="Bld_version.patch" Type="Int">2</Property>
+				<Property Name="Bld_version.minor" Type="Int">4</Property>
 				<Property Name="Destination[0].destName" Type="Str">mules.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/MuLES_portable/NI_AB_PROJECTNAME/mules.exe</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
@@ -276,13 +272,10 @@
 				<Property Name="Destination[4].path" Type="Path">../builds/MuLES_portable/NI_AB_PROJECTNAME/languages</Property>
 				<Property Name="Destination[5].destName" Type="Str">eeg_files</Property>
 				<Property Name="Destination[5].path" Type="Path">../builds/MuLES_portable/NI_AB_PROJECTNAME/eeg_files</Property>
-				<Property Name="Destination[6].destName" Type="Str">client_examples</Property>
-				<Property Name="Destination[6].path" Type="Path">../builds/MuLES_portable/NI_AB_PROJECTNAME/client_examples</Property>
-				<Property Name="Destination[6].preserveHierarchy" Type="Bool">true</Property>
-				<Property Name="DestinationCount" Type="Int">7</Property>
+				<Property Name="DestinationCount" Type="Int">6</Property>
 				<Property Name="Exe_cmdLineArgs" Type="Bool">true</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/source_vi/gui/various/MuLES_icon.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{4E2C6847-987A-4EA7-BF97-705E3104B92E}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{330D2B4F-A305-475F-AEFA-C4CBD3C4E23B}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Main.vi</Property>
@@ -309,13 +302,7 @@
 				<Property Name="Source[5].itemID" Type="Ref">/My Computer/eeg_files</Property>
 				<Property Name="Source[5].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[5].type" Type="Str">Container</Property>
-				<Property Name="Source[6].Container.applyDestination" Type="Bool">true</Property>
-				<Property Name="Source[6].Container.applyInclusion" Type="Bool">true</Property>
-				<Property Name="Source[6].destinationIndex" Type="Int">6</Property>
-				<Property Name="Source[6].itemID" Type="Ref">/My Computer/client_examples</Property>
-				<Property Name="Source[6].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[6].type" Type="Str">Container</Property>
-				<Property Name="SourceCount" Type="Int">7</Property>
+				<Property Name="SourceCount" Type="Int">6</Property>
 				<Property Name="TgtF_companyName" Type="Str">MuSAE Lab</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">MuSAE Lab EEG Server. Provides and interface between different EEG devices and applications</Property>
 				<Property Name="TgtF_internalName" Type="Str">MuLES</Property>
@@ -337,58 +324,64 @@
 				<Property Name="Destination[1].unlock" Type="Bool">true</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="DistPart[0].flavorID" Type="Str">_full_</Property>
-				<Property Name="DistPart[0].productID" Type="Str">{FE82D7AF-0A22-40E8-B7A5-9D7615296BA6}</Property>
-				<Property Name="DistPart[0].productName" Type="Str">NI USI 2.0.1</Property>
+				<Property Name="DistPart[0].productID" Type="Str">{8897C6A1-B3D5-4333-BAE8-62FFC97D4F22}</Property>
+				<Property Name="DistPart[0].productName" Type="Str">NI USI 15.0.1</Property>
 				<Property Name="DistPart[0].upgradeCode" Type="Str">{D1EDC484-7B17-11D7-83CE-00C0F03EBEBE}</Property>
-				<Property Name="DistPart[1].flavorID" Type="Str">DefaultFull</Property>
-				<Property Name="DistPart[1].productID" Type="Str">{CD4CAB41-CAB7-436F-8D66-A83B95F2F3E6}</Property>
-				<Property Name="DistPart[1].productName" Type="Str">NI LabVIEW Run-Time Engine 2013 f2</Property>
-				<Property Name="DistPart[1].SoftDep[0].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[1].SoftDep[0].productName" Type="Str">NI LabVIEW 2013 Run-Time Engine Non-English Support.</Property>
-				<Property Name="DistPart[1].SoftDep[0].upgradeCode" Type="Str">{DDE96050-C9ED-4EAC-B310-5EA217776FEA}</Property>
-				<Property Name="DistPart[1].SoftDep[1].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[1].SoftDep[1].productName" Type="Str">NI ActiveX Container</Property>
-				<Property Name="DistPart[1].SoftDep[1].upgradeCode" Type="Str">{1038A887-23E1-4289-B0BD-0C4B83C6BA21}</Property>
-				<Property Name="DistPart[1].SoftDep[2].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[1].SoftDep[2].productName" Type="Str">NI System Web Server 13.0</Property>
-				<Property Name="DistPart[1].SoftDep[2].upgradeCode" Type="Str">{FCF64B73-B7D4-4971-8F11-24BAF7CC3E6C}</Property>
-				<Property Name="DistPart[1].SoftDep[3].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[1].SoftDep[3].productName" Type="Str">Math Kernel Libraries</Property>
-				<Property Name="DistPart[1].SoftDep[3].upgradeCode" Type="Str">{EA05DCF9-F239-4387-8904-04D678031F6B}</Property>
-				<Property Name="DistPart[1].SoftDep[4].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[1].SoftDep[4].productName" Type="Str">NI Logos 5.5</Property>
-				<Property Name="DistPart[1].SoftDep[4].upgradeCode" Type="Str">{5E4A4CE3-4D06-11D4-8B22-006008C16337}</Property>
-				<Property Name="DistPart[1].SoftDep[5].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[1].SoftDep[5].productName" Type="Str">NI TDM Streaming 2.4</Property>
-				<Property Name="DistPart[1].SoftDep[5].upgradeCode" Type="Str">{4CD11BE6-6BB7-4082-8A27-C13771BC309B}</Property>
-				<Property Name="DistPart[1].SoftDep[6].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[1].SoftDep[6].productName" Type="Str">NI LabVIEW 2013 Web Server</Property>
-				<Property Name="DistPart[1].SoftDep[6].upgradeCode" Type="Str">{A66A5CC8-EEB5-4982-8B92-F591AF36060E}</Property>
-				<Property Name="DistPart[1].SoftDep[7].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[1].SoftDep[7].productName" Type="Str">NI LabVIEW 2013 Real-Time NBFifo</Property>
-				<Property Name="DistPart[1].SoftDep[7].upgradeCode" Type="Str">{76E4763E-0DC4-4195-BC50-084193FFA84B}</Property>
-				<Property Name="DistPart[1].SoftDep[8].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[1].SoftDep[8].productName" Type="Str">NI VC2008MSMs</Property>
-				<Property Name="DistPart[1].SoftDep[8].upgradeCode" Type="Str">{FDA3F8BB-BAA9-45D7-8DC7-22E1F5C76315}</Property>
-				<Property Name="DistPart[1].SoftDep[9].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[1].SoftDep[9].productName" Type="Str">NI Error Reporting 2013</Property>
-				<Property Name="DistPart[1].SoftDep[9].upgradeCode" Type="Str">{42E818C6-2B08-4DE7-BD91-B0FD704C119A}</Property>
-				<Property Name="DistPart[1].SoftDepCount" Type="Int">10</Property>
-				<Property Name="DistPart[1].upgradeCode" Type="Str">{A661D981-0A3B-4081-A5B5-1FAA03CFAF84}</Property>
-				<Property Name="DistPartCount" Type="Int">2</Property>
+				<Property Name="DistPart[1].flavorID" Type="Str">_deployment_</Property>
+				<Property Name="DistPart[1].productID" Type="Str">{B4F17552-FEA2-40BC-82CA-4F1DF61FF1A8}</Property>
+				<Property Name="DistPart[1].productName" Type="Str">NI-VISA Runtime 5.2</Property>
+				<Property Name="DistPart[1].upgradeCode" Type="Str">{8627993A-3F66-483C-A562-0D3BA3F267B1}</Property>
+				<Property Name="DistPart[2].flavorID" Type="Str">DefaultFull</Property>
+				<Property Name="DistPart[2].productID" Type="Str">{E7F44619-A12B-407C-A4AE-9E85280EF3AB}</Property>
+				<Property Name="DistPart[2].productName" Type="Str">NI LabVIEW Run-Time Engine 2013 SP1 f6</Property>
+				<Property Name="DistPart[2].SoftDep[0].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[2].SoftDep[0].productName" Type="Str">NI LabVIEW 2013 SP1 Run-Time Engine Non-English Support.</Property>
+				<Property Name="DistPart[2].SoftDep[0].upgradeCode" Type="Str">{DDE96050-C9ED-4EAC-B310-5EA217776FEA}</Property>
+				<Property Name="DistPart[2].SoftDep[1].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[2].SoftDep[1].productName" Type="Str">NI ActiveX Container</Property>
+				<Property Name="DistPart[2].SoftDep[1].upgradeCode" Type="Str">{1038A887-23E1-4289-B0BD-0C4B83C6BA21}</Property>
+				<Property Name="DistPart[2].SoftDep[10].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[2].SoftDep[10].productName" Type="Str">NI Error Reporting 2013</Property>
+				<Property Name="DistPart[2].SoftDep[10].upgradeCode" Type="Str">{42E818C6-2B08-4DE7-BD91-B0FD704C119A}</Property>
+				<Property Name="DistPart[2].SoftDep[2].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[2].SoftDep[2].productName" Type="Str">NI System Web Server 13.0</Property>
+				<Property Name="DistPart[2].SoftDep[2].upgradeCode" Type="Str">{FCF64B73-B7D4-4971-8F11-24BAF7CC3E6C}</Property>
+				<Property Name="DistPart[2].SoftDep[3].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[2].SoftDep[3].productName" Type="Str">Math Kernel Libraries</Property>
+				<Property Name="DistPart[2].SoftDep[3].upgradeCode" Type="Str">{EA05DCF9-F239-4387-8904-04D678031F6B}</Property>
+				<Property Name="DistPart[2].SoftDep[4].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[2].SoftDep[4].productName" Type="Str">NI Logos 5.5</Property>
+				<Property Name="DistPart[2].SoftDep[4].upgradeCode" Type="Str">{5E4A4CE3-4D06-11D4-8B22-006008C16337}</Property>
+				<Property Name="DistPart[2].SoftDep[5].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[2].SoftDep[5].productName" Type="Str">NI TDM Streaming 2.4</Property>
+				<Property Name="DistPart[2].SoftDep[5].upgradeCode" Type="Str">{4CD11BE6-6BB7-4082-8A27-C13771BC309B}</Property>
+				<Property Name="DistPart[2].SoftDep[6].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[2].SoftDep[6].productName" Type="Str">NI LabVIEW 2013 Web Server</Property>
+				<Property Name="DistPart[2].SoftDep[6].upgradeCode" Type="Str">{A66A5CC8-EEB5-4982-8B92-F591AF36060E}</Property>
+				<Property Name="DistPart[2].SoftDep[7].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[2].SoftDep[7].productName" Type="Str">NI LabVIEW 2013 Real-Time NBFifo</Property>
+				<Property Name="DistPart[2].SoftDep[7].upgradeCode" Type="Str">{76E4763E-0DC4-4195-BC50-084193FFA84B}</Property>
+				<Property Name="DistPart[2].SoftDep[8].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[2].SoftDep[8].productName" Type="Str">NI VC2008MSMs</Property>
+				<Property Name="DistPart[2].SoftDep[8].upgradeCode" Type="Str">{FDA3F8BB-BAA9-45D7-8DC7-22E1F5C76315}</Property>
+				<Property Name="DistPart[2].SoftDep[9].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[2].SoftDep[9].productName" Type="Str">NI VC2010MSMs</Property>
+				<Property Name="DistPart[2].SoftDep[9].upgradeCode" Type="Str">{EFBA6F9E-F934-4BD7-AC51-60CCA480489C}</Property>
+				<Property Name="DistPart[2].SoftDepCount" Type="Int">11</Property>
+				<Property Name="DistPart[2].upgradeCode" Type="Str">{A661D981-0A3B-4081-A5B5-1FAA03CFAF84}</Property>
+				<Property Name="DistPartCount" Type="Int">3</Property>
 				<Property Name="INST_author" Type="Str">Toshiba</Property>
 				<Property Name="INST_buildLocation" Type="Path">../builds/MuLES_installer</Property>
 				<Property Name="INST_buildLocation.type" Type="Str">relativeToCommon</Property>
 				<Property Name="INST_buildSpecName" Type="Str">MuLES_installer</Property>
 				<Property Name="INST_defaultDir" Type="Str">{1E42C379-2480-403F-95B0-89B3CCD541CA}</Property>
 				<Property Name="INST_productName" Type="Str">MuLES</Property>
-				<Property Name="INST_productVersion" Type="Str">1.3.0</Property>
+				<Property Name="INST_productVersion" Type="Str">1.4.0</Property>
 				<Property Name="INST_readmeID" Type="Ref">/My Computer/source_vi/gui/various/README.rtf</Property>
 				<Property Name="InstSpecBitness" Type="Str">32-bit</Property>
-				<Property Name="InstSpecVersion" Type="Str">13008051</Property>
+				<Property Name="InstSpecVersion" Type="Str">13008047</Property>
 				<Property Name="MSI_arpCompany" Type="Str">MuSAE Lab</Property>
 				<Property Name="MSI_arpURL" Type="Str">http://musaelab.ca/</Property>
-				<Property Name="MSI_autoselectDrivers" Type="Bool">true</Property>
 				<Property Name="MSI_distID" Type="Str">{BF5C95BB-5DE7-42D2-BE60-2D00405006A9}</Property>
 				<Property Name="MSI_licenseID" Type="Ref">/My Computer/source_vi/gui/various/LICENSE.rtf</Property>
 				<Property Name="MSI_osCheck" Type="Int">0</Property>
