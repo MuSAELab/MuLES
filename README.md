@@ -14,10 +14,6 @@ MuLES is a piece of software designed in LabVIEW, that aims at simplifying the u
 <img src="https://github.com/MuSAELab/MuLES/blob/master/images/diagram.png" width="500" align="middle">
 </p>
 
-R. Cassani, H. Banville, and T. Falk, MuLES: An Open Source EEG Acquisition and Streaming Server for Quick and Simple Prototyping and Recording, 20th ACM conference on intelligent user interfaces, 2015. [Paper](http://musaelab.ca/pdfs/C90A.pdf) and [Poster](http://musaelab.ca/pdfs/C90B.pdf).
-
-
-
 ## Installation
 
 The installation processes for MuLES is simple
@@ -26,9 +22,11 @@ The installation processes for MuLES is simple
 - Unzip the ```MuLES_installer.zip``` file and run ```setup.exe``` located in ```\MuLES_installer\```
 
 ## Test
-- Run ```mules.exe```, a Desktop shortcut is created by the MuLES installer  
-  Alternatively, MuLES executable is located in: </br>
-```C:\Program Files (x86)\MuSAE_Lab\MuLES\``` for Windows 64bit  
- ```C:\Program Files\MuSAE_Lab\MuLES\```  for Windows 32bit
 
-- Open the Simple Client Example for Matlab or Python (2 and 3): </br> (```C:\Program Files (x86)\MuSAE_Lab\MuLES\client_examples\matlab\example_simple_client.m```) </br> or </br> (```C:\Program Files (x86)\MuSAE_Lab\MuLES\client_examples\python\example_simple_client.py```) </br> respectively. </br> And follow the instructions in the scripts.
+Examples of MuLES clients are provided for MATLAB, Python3 and Unity3D (C#) in [this repository](https://github.com/rcassani/MuLES-client-examples).
+
+## Citation
+
+If you use any version of MuLES, please cite the following publication:
+
+- R. Cassani, H. Banville, and T. Falk, MuLES: An Open Source EEG Acquisition and Streaming Server for Quick and Simple Prototyping and Recording, 20th ACM conference on intelligent user interfaces, 2015. [Paper](http://musaelab.ca/pdfs/C90A.pdf) and [Poster](http://musaelab.ca/pdfs/C90B.pdf).
